@@ -7,7 +7,7 @@
 # Run application using Docker
 
 ```sh
-docker run -p 8080:8080 --name springbootcontainer cloud-native-buildpacks-sample:0.0.1-SNAPSHOT
+docker run --rm -p 8080:8080 --name springbootcontainer cloud-native-buildpacks-sample:0.0.1-SNAPSHOT
 ```
 
 # Refferences
