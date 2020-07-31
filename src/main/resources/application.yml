@@ -6,9 +6,7 @@ spring:
 info:
   java.vm.vendor: ${java.vm.vendor}
   java.version: ${java.version}
-  application.encoding: @project.build.sourceEncoding@
   application.name: ${spring.application.name}
-  spring.boot.version: @spring-boot.version@
 
 # Expose all Spring Boot Actuator endpoints
 management:
