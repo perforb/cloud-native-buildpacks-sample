@@ -1,7 +1,7 @@
 # Build Image
 
 ```sh
-./mvnw spring-boot:build-image
+./gradlew bootBuildImage
 ```
 
 # Run application using Docker
